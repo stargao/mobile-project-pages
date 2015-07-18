@@ -1,0 +1,44 @@
+/* Write your styles */
+h1.am-header-title a {
+    font-size: 1.6rem;
+}
+
+.am-header .am-header-nav img {
+    height: 24px;
+    width: auto;
+}
+
+.product-download-grid h3 {
+    margin-left: 1rem;
+}
+
+.product-download-grid h3 i {
+    color: #0e90d2;
+}
+
+.product-download-grid div {
+    margin-bottom: 8px;
+}
+
+.am-list-news-bd ul li .am-list-thumb i {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.am-list-news-bd ul li:nth-child(1) .am-list-thumb i {
+    color: #0487D0;
+}
+
+.am-list-news-bd ul li:nth-child(2) .am-list-thumb i {
+    color: #E40277;
+}
+
+.am-list-news-bd ul li:nth-child(3) .am-list-thumb i {
+    color: #92C426;
+}
+
+.am-list-news-bd ul li:nth-child(4) .am-list-thumb i {
+    color: #F7C602;
+}

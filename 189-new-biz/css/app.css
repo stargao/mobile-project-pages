@@ -58,3 +58,12 @@ h1.am-header-title a {
 .phone-mall-list .am-list-thumb {
     min-height: 120px;
 }
+
+#community-service {
+    margin-top: 15px;
+}
+
+.service-list address.shop-address {
+    font-size: 12px;
+    color: #666;
+}

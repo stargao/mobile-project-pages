@@ -1,0 +1,205 @@
+body {
+    background-color: #f2f2f2;
+    padding-top: 70px;
+}
+
+.cutline {
+    width: 90%;
+    height: 0px;
+    margin: 10px 5%;
+    border-top: 1px solid #ccc;
+}
+
+.small-title {
+    font-size: 12px;
+    color: #22A7F0;
+    margin-bottom: 5px;
+}
+
+.top-nav-bar {
+    height: 56px;
+    background-color: #4A89DC;
+}
+
+.top-nav-bar img.logo-img {
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin: 12px auto 0;
+}
+
+.button-wrap {
+
+}
+
+.button-wrap .big-btn-box {
+    padding: 0.5%;
+}
+
+.button-wrap .big-btn {
+    display: block;
+    background-color: #fff;
+    border: 1px solid #eee;
+    box-shadow: 2px 2px 2px #ccc;
+    /*transition: box-shadow 2s;*/
+}
+
+/*.button-wrap .big-btn:active {
+    box-shadow: 2px 4px 4px #666;
+}*/
+
+.button-wrap .big-btn .fa {
+    display: block;
+    font-size: 40px;
+    text-align: center;
+    margin: 12px auto;
+}
+
+.button-wrap .big-btn .fa-wifi {
+    color: #22A7F0;
+}
+
+.button-wrap .big-btn .fa-wrench {
+    color: #DC3023;
+}
+
+.button-wrap .big-btn img {
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 12px auto;
+}
+
+.button-wrap .big-btn span {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.check-in-wrap {
+    margin-top: 24px;
+    padding: 8px 0;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px #ccc;
+}
+
+.check-in-wrap h1.check-in-content {
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+.check-in-wrap h1.check-in-content span {
+    color: #DC3023;
+    padding: 0 8px;
+}
+
+.check-in-wrap .check-in-history {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #666;
+}
+
+.check-in-wrap .check-in-history span {
+    font-weight: bold;
+    color: #333;
+    padding-left: 0px;
+    padding-right: 10px;
+}
+
+.check-in-wrap .check-in-history span:last-child {
+    padding-right: 0;
+}
+
+.check-in-wrap .check-in-btn {
+    display: block;
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    margin: 8px 0 0 0;
+    border: 2px solid #22A7F0;
+}
+
+.check-in-wrap .check-in-btn span {
+    display: none;
+    text-align: center;
+    font-size: 14px;
+    line-height: 50px;
+    color: #666;
+}
+
+.check-in-wrap .check-in-btn.checked-style {
+    border: 2px solid #ccc;
+    background-color: #f2f2f2;
+}
+
+.check-in-wrap .check-in-btn.checked-style .fa {
+    display: none;
+}
+
+.check-in-wrap .check-in-btn.checked-style span {
+    display: block;
+}
+
+.check-in-wrap .check-in-btn .fa {
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 11px; 
+}
+
+.check-in-wrap .tips-words {
+    font-size: 12px;
+    color: #666;
+}
+
+.joke-content-wrap {
+    margin-top: 24px;
+    padding: 8px 0;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px #ccc;
+}
+
+.joke-content-wrap .joke-list {
+    padding-bottom: 8px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.joke-content-wrap .joke-list dt.joke-title {
+    margin-bottom: 5px;
+}
+
+.joke-content-wrap .joke-list dd.joke-content p {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.joke-content-wrap .joke-list dd.joke-content a.like-btn {
+    font-size: 12px;
+    color: #333;
+}
+
+.joke-content-wrap .joke-list dd.joke-content a.like-btn .fa {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.joke-content-wrap .joke-list dd.joke-content a.like-btn.liked {
+    background-color: #fff;
+}
+
+.joke-content-wrap .joke-list dd.joke-content a.like-btn.liked .fa {
+    color: #DC3023;
+}
+
+.check-in-tips {
+    position: absolute;
+    z-index: 3000;
+    width: 100%;
+    top: -60px;
+    opacity: 0;
+}

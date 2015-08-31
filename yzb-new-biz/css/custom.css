@@ -3,6 +3,10 @@ body {
     padding-top: 70px;
 }
 
+body, html {
+    -webkit-font-smoothing: antialiased;
+}
+
 .cutline {
     width: 90%;
     height: 0px;
@@ -50,9 +54,9 @@ body {
 
 .button-wrap .big-btn .fa {
     display: block;
-    font-size: 40px;
+    font-size: 32px;
     text-align: center;
-    margin: 12px auto;
+    margin: 8px auto;
 }
 
 .button-wrap .big-btn .fa-wifi {
@@ -154,6 +158,45 @@ body {
 .check-in-wrap .tips-words {
     font-size: 12px;
     color: #666;
+}
+
+.check-in-wrap .score-mall-list {
+
+}
+
+.check-in-wrap .score-mall-list .media {
+    border-bottom: 1px solid #eee;
+}
+
+.check-in-wrap .score-mall-list .media.last-one {
+    padding-bottom: 10px;
+    border-bottom: 0;
+}
+
+.check-in-wrap .score-mall-list .media-left a img {
+    width: 90px;
+}
+
+.check-in-wrap .score-mall-list .media-body h4.media-heading {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
+
+.check-in-wrap .score-mall-list .media-body p {
+    font-size: 12px;
+    color: #666;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.check-in-wrap .score-mall-list .media-body p.product-price span {
+    text-decoration: line-through;
+}
+
+.check-in-wrap .score-mall-list .media-body p span {
+    color: #333;
+    font-weight: bold;
 }
 
 .joke-content-wrap {

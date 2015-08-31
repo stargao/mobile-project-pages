@@ -3,8 +3,7 @@ $(function(){
 		$(this).toggleClass('liked');
 	});
 
-	$('.check-in-wrap .check-in-btn').click(function(){
-		console.info('run');
+	function showCheckInSuccessTips() {
 		$('.check-in-tips').removeClass('hidden');
 		$(this).addClass('checked-style');
 		$('.check-in-tips').animate({
@@ -21,5 +20,7 @@ $(function(){
 						});
 					}, 1500);
 		});
-	});
+	}
+
+	$('.check-in-wrap .check-in-btn').one('click', showCheckInSuccessTips);
 });

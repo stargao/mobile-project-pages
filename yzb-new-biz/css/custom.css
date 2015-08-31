@@ -90,7 +90,9 @@ body, html {
 }
 
 .check-in-wrap h1.check-in-content {
-    margin: 0;
+    /*margin: 0;*/
+    margin-top: 0;
+    margin-bottom: 5px;
     font-size: 16px;
     line-height: 24px;
     color: #333;
@@ -123,11 +125,19 @@ body, html {
     width: 56px;
     height: 56px;
     border-radius: 28px;
-    margin: 8px 0 0 0;
+    margin: 10px 0 0 0;
     border: 2px solid #22A7F0;
 }
 
-.check-in-wrap .check-in-btn span {
+.check-in-wrap .check-in-btn span.check-in-show {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    line-height: 50px;
+    color: #22A7F0;
+}
+
+.check-in-wrap .check-in-btn span.check-in-success {
     display: none;
     text-align: center;
     font-size: 14px;
@@ -140,11 +150,11 @@ body, html {
     background-color: #f2f2f2;
 }
 
-.check-in-wrap .check-in-btn.checked-style .fa {
+.check-in-wrap .check-in-btn.checked-style span.check-in-show {
     display: none;
 }
 
-.check-in-wrap .check-in-btn.checked-style span {
+.check-in-wrap .check-in-btn.checked-style span.check-in-success {
     display: block;
 }
 

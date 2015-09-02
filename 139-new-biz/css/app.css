@@ -20,6 +20,10 @@ h1.am-header-title a {
     margin-bottom: 8px;
 }
 
+.phone-mall-list .am-list-thumb {
+    min-height: 120px;
+}
+
 .am-list-news-bd ul li .am-list-thumb i {
     display: block;
     text-align: center;

@@ -7,6 +7,19 @@ body, html {
     -webkit-font-smoothing: antialiased;
 }
 
+fieldset {
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 12px;
+    color: #333;
+}
+
 .cutline {
     width: 90%;
     height: 0px;
@@ -20,16 +33,37 @@ body, html {
     margin-bottom: 5px;
 }
 
-.top-nav-bar {
+.top-nav-bar-with-logo {
     height: 56px;
     background-color: #4A89DC;
 }
 
-.top-nav-bar img.logo-img {
+.top-nav-bar-with-logo img.logo-img {
     display: block;
     width: 100px;
     height: 30px;
     margin: 12px auto 0;
+}
+
+.top-nav-bar.navbar-default {
+    height: 40px;
+    background-color: #4A89DC;
+}
+
+.top-nav-bar.navbar-default p, 
+.top-nav-bar.navbar-default p a,
+.top-nav-bar.navbar-default p a .fa {
+    color: #fff;
+}
+
+.top-nav-bar.navbar-default p.brand {
+    /*position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;*/
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
 }
 
 .button-wrap {
@@ -250,9 +284,61 @@ body, html {
 }
 
 .check-in-tips {
-    position: absolute;
+    position: fixed;
     z-index: 3000;
     width: 100%;
     top: -60px;
     opacity: 0;
+}
+
+.net-work-list {
+
+}
+
+.net-work-list .panel-body {
+    /*padding: 15px 0;*/
+}
+
+.net-work-list.net-panel-1 .panel-heading {
+    background-color: #F4D03F; 
+}
+
+.net-work-list.net-panel-2 .panel-heading {
+    background-color: #89C4F4; 
+}
+
+.net-work-list.net-panel-3 .panel-heading {
+    background-color: #F47983; 
+}
+
+.net-work-list h3.panel-title {
+    font-weight: bold;
+}
+
+.net-work-list .panel-body .media-left img.media-object {
+    width: 110px;
+}
+
+.net-work-list .panel-body p.panel-desc {
+    font-size: 12px;
+}
+
+.net-work-list p.bought-count {
+    font-size: 12px;
+    color: #666;
+}
+
+.net-work-list p.bought-count span {
+    font-size: 12px;
+    color: #333;
+    padding: 0 3px;
+}
+
+.net-work-list .panel-footer {
+    background: #fff;
+}
+
+.net-work-list .panel-footer .net-price {
+    font-size: 16px;
+    font-weight: bold;
 }

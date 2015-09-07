@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+    <title>填写预约信息</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootflat.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top top-nav-bar">
+        <div class="container-fluid">
+            <p class="navbar-text navbar-left pull-left"><a href="new-network-list.html" class="navbar-link"><i class="fa fa-chevron-left"></i> 返回</a></p>
+            <p class="navbar-text pull-right">填写预约信息</p>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <form>
+                    <fieldset>填写预约信息</fieldset>
+                    <div class="form-group">
+                        <label for="user-name">用户姓名</label>
+                        <input type="text" class="form-control" id="user-name" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label for="user-phone">联系手机</label>
+                        <input type="tel" class="form-control" id="user-phone" placeholder="输入客服可以联系到您的手机号码">
+                    </div>
+                    <div class="form-group">
+                        <label for="user-id-card">身份证号码</label>
+                        <input type="number" class="form-control" id="user-id-card" placeholder="请填写办理人真实身份证号码">
+                    </div>
+                    <div class="form-group">
+                        <label>安装地址：成都</label>
+                        <select class="form-control" id="area-select">
+                            <option value="">郫县</option>
+                            <option value="">双流</option>
+                            <option value="">金堂</option>
+                            <option value="">新都</option>
+                            <option value="">邛崃</option>
+                            <option value="">浦江</option>
+                            <option value="">高新区</option>
+                            <option value="">崇州</option>
+                            <option value="">大邑</option>
+                            <option value="">都江堰</option>
+                        </select>
+                        <label for="address-info"></label>
+                        <input type="text" class="form-control" id="address-info" placeholder="请输入具体地址">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">免费预约</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+    <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/icheck.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+</html>

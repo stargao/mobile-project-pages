@@ -51,7 +51,7 @@ $(function(){
     Ladda.bind( 'button.reserve-btn', { timeout: 2000 } );
     $('button.reserve-btn').click(function(){
         setTimeout(function(){
-            window.location.href='../reserve-success.html'
+            window.location.href='reserve-success.html'
         }, 2500);
     });
 });

@@ -1,0 +1,373 @@
+body {
+    background-color: #f8f8f8;
+    padding-top: 70px;
+}
+
+body, html {
+    -webkit-font-smoothing: antialiased;
+}
+
+fieldset {
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 12px;
+    color: #333;
+}
+
+.cutline {
+    width: 90%;
+    height: 0px;
+    margin: 10px 5%;
+    border-top: 1px solid #ccc;
+}
+
+.small-title {
+    font-size: 12px;
+    color: #22A7F0;
+    margin-bottom: 5px;
+}
+
+.top-nav-bar-with-logo {
+    height: 56px;
+    background-color: #f2f2f2;
+}
+
+.top-nav-bar-with-logo img.logo-img {
+    display: block;
+    width: 160px;
+    height: 30px;
+    margin: 12px auto 0;
+}
+
+.top-nav-bar.navbar-default {
+    height: 40px;
+    background-color: #4A89DC;
+}
+
+.top-nav-bar.navbar-default p, 
+.top-nav-bar.navbar-default p a,
+.top-nav-bar.navbar-default p a .fa {
+    color: #fff;
+}
+
+.top-nav-bar.navbar-default p.brand {
+    /*position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;*/
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+}
+
+.button-wrap {
+
+}
+
+.button-wrap .big-btn-box {
+    padding: 0.5%;
+}
+
+.button-wrap .big-btn {
+    display: block;
+    background-color: #fff;
+    border: 1px solid #eee;
+    box-shadow: 2px 2px 2px #ccc;
+    /*transition: box-shadow 2s;*/
+}
+
+/*.button-wrap .big-btn:active {
+    box-shadow: 2px 4px 4px #666;
+}*/
+
+.button-wrap .big-btn .fa {
+    display: block;
+    font-size: 32px;
+    text-align: center;
+    margin: 8px auto;
+}
+
+.button-wrap .big-btn .fa-wifi {
+    color: #22A7F0;
+}
+
+.button-wrap .big-btn .fa-wrench {
+    color: #DC3023;
+}
+
+.button-wrap .big-btn img {
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 12px auto;
+}
+
+.button-wrap .big-btn span {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.check-in-wrap {
+    margin-top: 16px;
+    padding: 8px 0;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px #ccc;
+}
+
+.check-in-wrap h1.check-in-content {
+    /*margin: 0;*/
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+.check-in-wrap h1.check-in-content span {
+    color: #DC3023;
+    padding: 0 8px;
+}
+
+.check-in-wrap .check-in-history {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #666;
+}
+
+.check-in-wrap .check-in-history span {
+    font-weight: bold;
+    color: #333;
+    padding-left: 0px;
+    padding-right: 10px;
+}
+
+.check-in-wrap .check-in-history span:last-child {
+    padding-right: 0;
+}
+
+.check-in-wrap .check-in-btn {
+    display: block;
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    margin: 10px 0 0 0;
+    border: 2px solid #22A7F0;
+}
+
+.check-in-wrap .check-in-btn span.check-in-show {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    line-height: 50px;
+    color: #22A7F0;
+}
+
+.check-in-wrap .check-in-btn span.check-in-success {
+    display: none;
+    text-align: center;
+    font-size: 14px;
+    line-height: 50px;
+    color: #666;
+}
+
+.check-in-wrap .check-in-btn.checked-style {
+    border: 2px solid #ccc;
+    background-color: #f2f2f2;
+}
+
+.check-in-wrap .check-in-btn.checked-style span.check-in-show {
+    display: none;
+}
+
+.check-in-wrap .check-in-btn.checked-style span.check-in-success {
+    display: block;
+}
+
+.check-in-wrap .check-in-btn .fa {
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 11px; 
+}
+
+.check-in-wrap .tips-words {
+    font-size: 12px;
+    color: #666;
+}
+
+.score-mall-list {
+
+}
+
+.score-mall-list .media {
+    border-bottom: 1px solid #eee;
+}
+
+.score-mall-list .media:last-child {
+    padding-bottom: 10px;
+    border-bottom: 0;
+}
+
+.score-mall-list .media-left a img {
+    width: 90px;
+}
+
+.score-mall-list .media-body h4.media-heading {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
+
+.score-mall-list .media-body p {
+    font-size: 12px;
+    color: #666;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.score-mall-list .media-body p.product-price span {
+    text-decoration: line-through;
+}
+
+.score-mall-list .media-body p span {
+    font-weight: bold;
+}
+
+.score-mall-list .media-body .exchange-btn {
+    margin-bottom: 10px;
+}
+
+.joke-content-wrap {
+    margin-top: 16px;
+    padding: 8px 0;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px #ccc;
+}
+
+.joke-content-wrap .joke-list {
+    padding-bottom: 8px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.joke-content-wrap .joke-list dt.joke-title {
+    margin-bottom: 5px;
+}
+
+.joke-content-wrap .joke-list dd.joke-content p {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.joke-content-wrap .joke-list dd.joke-content a.like-btn {
+    font-size: 12px;
+    color: #333;
+}
+
+.joke-content-wrap .joke-list dd.joke-content a.like-btn .fa {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.joke-content-wrap .joke-list dd.joke-content a.like-btn.liked {
+    background-color: #fff;
+}
+
+.joke-content-wrap .joke-list dd.joke-content a.like-btn.liked .fa {
+    color: #DC3023;
+}
+
+.check-in-tips {
+    position: fixed;
+    z-index: 3000;
+    width: 100%;
+    top: -60px;
+    opacity: 0;
+}
+
+.fault-repair-tips {
+    position: fixed;
+    z-index: 3000;
+    width: 100%;
+    top: -60px;
+    opacity: 0;
+}
+
+.net-work-list {
+
+}
+
+.net-work-list .panel-body {
+    /*padding: 15px 0;*/
+}
+
+.net-work-list.net-panel-1 .panel-heading {
+    background-color: #F4D03F; 
+}
+
+.net-work-list.net-panel-2 .panel-heading {
+    background-color: #89C4F4; 
+}
+
+.net-work-list.net-panel-3 .panel-heading {
+    background-color: #F47983; 
+}
+
+.net-work-list h3.panel-title {
+    font-weight: bold;
+}
+
+.net-work-list .panel-body .media-left img.media-object {
+    width: 110px;
+}
+
+.net-work-list .panel-body p.panel-desc {
+    font-size: 12px;
+}
+
+.net-work-list p.bought-count {
+    font-size: 12px;
+    color: #666;
+}
+
+.net-work-list p.bought-count span {
+    font-size: 12px;
+    color: #333;
+    padding: 0 3px;
+}
+
+.net-work-list .panel-footer {
+    background: #fff;
+}
+
+.net-work-list .panel-footer .net-price {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.score-mall-wrap {
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 1px 2px 4px #ccc;
+}
+
+.score-mall-wrap .score-mall-title {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.score-mall-wrap .score-mall-title small {
+    color: #337ab7;
+}

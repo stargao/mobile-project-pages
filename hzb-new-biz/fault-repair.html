@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+    <title>故障报修</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootflat.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top top-nav-bar">
+        <div class="container-fluid">
+            <p class="navbar-text navbar-left pull-left"><a href="index.html" class="navbar-link"><i class="fa fa-chevron-left"></i> 返回</a></p>
+            <p class="navbar-text pull-right">故障报修</p>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <form>
+                    <fieldset>宽带故障报修</fieldset>
+                    <div class="form-group">
+                        <label for="fault-type">故障类型</label>
+                        <select class="form-control" id="fault-type">
+                            <option value="">无法上网</option>
+                            <option value="">上网慢</option>
+                            <option value="">频繁掉线</option>
+                        </select>
+                    </div>
+                    <!--div class="form-group">
+                        <label for="fault-phone">障碍产品号码</label>
+                        <input type="tel" class="form-control" id="fault-phone" placeholder="输入出现问题的座机号码">
+                    </div>
+                    <div class="form-group">
+                        <label for="user-id-card">身份证号码</label>
+                        <input type="text" class="form-control" id="user-id-card" placeholder="请填写办理人真实身份证号码">
+                    </div-->
+                    <button type="button" class="btn btn-warning btn-block fault-repair-btn">立即报修</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="alert alert-warning fault-repair-tips hidden" role="alert">您的故障已经受理，装维人员将会立即与您联系</div>
+</body>
+    <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/icheck.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+</html>

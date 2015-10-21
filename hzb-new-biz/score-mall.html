@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+    <title>积分商城</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootflat.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/ladda-themeless.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top top-nav-bar">
+        <div class="container-fluid">
+            <p class="navbar-text navbar-left pull-left"><a href="index.html" class="navbar-link"><i class="fa fa-chevron-left"></i> 返回</a></p>
+            <p class="navbar-text pull-right">积分商城 当前积分: <strong>30</strong></p>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row score-mall-wrap">
+            <div class="col-xs-12">
+                <h5 class="text-primary score-mall-title"><i class="fa fa-shopping-cart"></i> 积分商城 <small>当前积分: <strong>30</strong></small></h5>
+                <ul class="media-list score-mall-list">
+                    <li class="media">
+                        <div class="media-left">
+                            <a href="#">
+                                <img src="img/ad_3.jpg" alt="" class="media-object">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">10M 流量包</h4>
+                            <p class="sub-title">移动、联通、电信均可使用</p>
+                            <p class="product-score">所需积分：<span class="text-warning">30</span></p>
+                            <button class="btn btn-primary btn-sm exchange-btn" data-toggle="modal" data-target="#exchangeModal">立即兑换</button>
+                            <!--p class="need-score">按当前进度只需再签到：<span class="text-warning">2天</span></p-->
+                        </div>
+                    </li>
+                    <li class="media">
+                        <div class="media-left">
+                            <a href="#">
+                                <img src="img/ad_1.jpg" alt="" class="media-object">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">30M 流量包</h4>
+                            <p class="sub-title">移动、联通、电信均可使用</p>
+                            <p class="product-score">所需积分：<span class="text-warning">60</span></p>
+                            <p class="need-score">按当前进度只需再签到：<span class="text-warning">2天</span></p>
+                        </div>
+                    </li>
+                    <li class="media">
+                        <div class="media-left">
+                            <a href="#">
+                                <img src="img/ad_2.jpg" alt="" class="media-object">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">沁州黄真空装小米500g</h4>
+                            <p class="product-price">原价：<del>￥20.0</del></p>
+                            <p class="product-score">所需积分：<span class="text-warning">120</span></p>
+                            <p class="need-score">按当前进度只需再签到：<span class="text-warning">5天</span></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exchangeModal" tabindex="-1" role="dialog" aria-labelledby="exchangeModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="exchangeModalLabel">确认兑换该商品吗？</h4>
+                </div>
+                <div class="modal-body">
+                    <p>您要兑换的商品所需积分为 <strong>30</strong>, 您当前可用的积分为 <strong>30</strong>。</p>
+                    <small class="text-mute text-sm">确认兑换后，将直接扣除您的积分，对应商品将会直接发送给您。请注意该积分不能退还。</small>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">放弃</button>
+                    <button type="button" class="btn btn-primary ladda-button" data-style="slide-right"><span class="ladda-label">兑换商品</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/icheck.min.js"></script>
+    <script type="text/javascript" src="js/spin.min.js"></script>
+    <script type="text/javascript" src="js/ladda.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+</html>
